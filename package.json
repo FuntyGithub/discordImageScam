@@ -1,0 +1,22 @@
+{
+  "name": "discordimagescam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuntyGithub/discordImageScam.git"
+  },
+  "author": "funty",
+  "bugs": {
+    "url": "https://github.com/FuntyGithub/discordImageScam/issues"
+  },
+  "homepage": "https://github.com/FuntyGithub/discordImageScam#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "path": "^0.12.7"
+  }
+}
