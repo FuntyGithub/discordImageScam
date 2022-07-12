@@ -11,7 +11,6 @@ app.get('/image.png', (request, response) => {
     if(request.headers['user-agent'].includes('https://discordapp.com')) response.sendFile(path.join(__dirname, '/src/image.png'));
     else response.sendFile(path.join(__dirname, '/src/index.html'));
 
-    console.log(request.headers)
 });
 
 
